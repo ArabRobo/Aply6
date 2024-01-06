@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6803862067:AAF4AaM-qrY9LUjoISxciP0FsFSZLemQxQY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6332652784:AAEYLm_xsrUv-FQ41qqP0mBfQuVrNE0_UT0")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "10064016"))
@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "10064016"))
 API_HASH = os.environ.get("API_HASH", "b9ca5d9a6c625a890af28db4adf50cf4")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002001282563"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002043375220"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Dhilnihnge")
@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgres://adbegtlm:dnOAluKvLkOu_vl0LGx
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001900731028"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001712377161"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
